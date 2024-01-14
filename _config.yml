@@ -40,7 +40,7 @@ round-avatar: false
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-title-img: assets/img/b7b32514-8ba2-4088-be1b-f48222338749_20240114_103224_0000.png
+title-img: "assets/img/b7b32514-8ba2-4088-be1b-f48222338749_20240114_103224_0000.png"
 
 
 #####################################
