@@ -20,10 +20,13 @@ author: Rachel M. Fisher
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  # About Me: "aboutme"
+  Tags: "tags"
+  # Categories:
+    # - Faith: 
   # Resources:
-  #  - Beautiful Jekyll: "https://beautifuljekyll.com"
-  #  - Learn markdown: "https://www.markdowntutorial.com/"
+   # - Beautiful Jekyll: "https://beautifuljekyll.com"
+   # - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
 
 ################
@@ -32,14 +35,14 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/b7b32514-8ba2-4088-be1b-f48222338749_20240114_103224_0000.png"
+# avatar: "/assets/img/b7b32514-8ba2-4088-be1b-f48222338749_20240114_103224_0000.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-title-img: "assets/img/b7b32514-8ba2-4088-be1b-f48222338749_20240114_103224_0000.png"
+title-img: "assets/img/RachelMFisherLogoFull.png"
 
 
 #####################################
@@ -97,7 +100,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "rachelmfisher.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -226,16 +229,16 @@ footer-hover-col: "#0085A1"
 # (2) Install the giscus app in your repository (details at https://giscus.app),
 # (3) Fill in *all* the parameters below 
 # See more details about giscus and each of the following parameters at https://giscus.app
-#giscus:
-#  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  repository-id: # ID of your repository, retrieve this info from https://giscus.app
-#  category: Announcements # Category name of your GitHub Discussion posts
-#  category-id: # ID of your category, retrieve this info from https://giscus.app
-#  mapping: pathname
-#  reactions-enabled: 1
-#  emit-metadata: 0
-#  theme: light
+giscus:
+  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
+  repository: "elenaltarien/elenaltarien.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  repository-id: "R_kgDOLEu-bA" # ID of your repository, retrieve this info from https://giscus.app
+  category: Announcements # Category name of your GitHub Discussion posts
+  category-id: "DIC_kwDOLEu-bM4Cca0k" # ID of your category, retrieve this info from https://giscus.app
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: light
 
 ################
 # --- Misc --- #
